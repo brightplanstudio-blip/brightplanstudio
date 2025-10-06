@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburger Test – BrightPlan Studio</title>
+  <style>
+    body { margin:0; font-family:Arial, sans-serif; background:#222; color:white; }
+    .site-header { display:flex; justify-content:space-between; align-items:center; padding:14px 24px; background:#111; }
+    .brand { font-weight:bold; font-size:18px; }
+    .nav-toggle { display:none; background:none; border:none; color:white; font-size:28px; cursor:pointer; margin-left:auto; }
+    .site-nav { display:flex; gap:20px; }
+    .site-nav a { color:#d4af37; text-decoration:none; }
+    @media (max-width:768px) {
+      .nav-toggle { display:block; }
+      .site-nav { display:none; flex-direction:column; width:100%; margin-top:10px; }
+      .site-nav.active { display:flex !important; }
+      .site-nav a { margin:10px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">BrightPlan Studio™</div>
+    <button class="nav-toggle" onclick="document.getElementById('site-nav').classList.toggle('active');">☰</button>
+    <nav class="site-nav" id="site-nav">
+      <a href="#">Home</a>
+      <a href="#">Plans</a>
+      <a href="#">Register</a>
+      <a href="#">Login</a>
+      <a href="#">Account</a>
+    </nav>
+  </header>
+</body>
+</html>

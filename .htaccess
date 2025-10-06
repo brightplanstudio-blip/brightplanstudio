@@ -1,0 +1,14 @@
+# Enable rewrite
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect www → non-www
+RewriteCond %{HTTP_HOST} ^www\.brightplanstudio\.com [NC]
+RewriteRule ^(.*)$ https://brightplanstudio.com/$1 [L,R=301]
+
+# Charset (force UTF-8 for all text files)
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .htm .php .cs

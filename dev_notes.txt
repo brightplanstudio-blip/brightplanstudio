@@ -1,0 +1,39 @@
+<?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+require __DIR__ . '/functions.php';
+require_login();
+
+$pdo = db();
+
+$code = $_POST['code'] ?? $_GET['code'] ?? '';
+$code = trim($code);
+
+if ($code === '') {
+    die("No code provided.");
+}
+
+$stmt = $pdo->prepare("SELECT id, tier_slug, uses, max_uses FROM invite_codes WHERE code=? LIMIT 1");
+$stmt->execute([$code]);
+$invite = $stmt->fetch(PDO::FETCH_ASSOC);
+
+if (!$invite) {
+    die("Invalid code.");
+}
+if ($invite['uses'] >= $invite['max_uses']) {
+    die("Code already used.");
+}
+
+// update role in users table
+$stmt = $pdo->prepare("UPDATE users SET role=? WHERE id=?");
+$stmt->execute([$invite['tier_slug'], $_SESSION['user']['id']]);
+
+// increment invite use
+$stmt = $pdo->prepare("UPDATE invite_codes SET uses = uses + 1 WHERE id=?");
+$stmt->execute([$invite['id']]);
+
+// update session
+$_SESSION['user']['role'] = $invite['tier_slug'];
+
+echo "Code redeemed successfully. <a href='account.php'>Go to your account</a>";

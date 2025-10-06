@@ -1,0 +1,1 @@
+Upload & Extract in cPanel home. Visit /install.php. Admin user will be created and invite codes shown. Replace /protected/*.zip with your real packs.

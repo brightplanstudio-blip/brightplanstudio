@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BrightPlan Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">BrightPlan Studio™</div>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="register.php">Register</a>
+      <a href="login.php">Login</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <section>
+      <h1>Empower Your Journey</h1>
+      <p>BrightPlan Studio Pty Ltd (ABN 99 690 991 489) delivers premium learning and development experiences to help you grow, lead, and excel.</p>
+      <p><a href="pricing.html"><button>View Plans</button></a></p>
+    </section>
+
+    <section>
+      <h2>Why Choose BrightPlan Studio?</h2>
+      <ul>
+        <li>✔ Exclusive tiered content (Essentials, Growth, Leadership+)</li>
+        <li>✔ Secure account and invite code system</li>
+        <li>✔ Protected downloads with role-based access</li>
+        <li>✔ Backed by registered ABN and trade marks</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 BrightPlan Studio Pty Ltd™. ABN 99 690 991 489. All rights reserved.</p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a> | 
+      <a href="terms.html">Terms of Service</a> | 
+      <a href="refund.html">No Refund Policy</a>
+    </p>
+    <p>Contact: <a href="mailto:brightplanstudio@outlook.com">brightplanstudio@outlook.com</a></p>
+  </footer>
+</body>
+</html>

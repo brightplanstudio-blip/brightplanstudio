@@ -1,0 +1,21 @@
+Options -Indexes
+
+# Allow PHP execution in this folder
+<FilesMatch "\.php$">
+  Require all granted
+</FilesMatch>
+
+# Block direct reads of non-PHP assets (protect templates)
+<FilesMatch "\.(html|md|txt|pdf)$">
+  Require all denied
+</FilesMatch>
+
+# Explicitly allow pdf.php for logged-in users
+<Files "pdf.php">
+  Require all granted
+</Files>
+
+# Prevent direct access to guard.php
+<Files "guard.php">
+  Require all denied
+</Files>

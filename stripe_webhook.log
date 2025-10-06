@@ -1,0 +1,5 @@
+Webhook hit at 2025-09-29T00:57:46+00:00
+Signature error: Unable to extract timestamp and signatures from header
+Webhook hit at 2025-09-29T02:31:37+00:00
+Event: checkout.session.completed
+Updated user testuser@example.com to essentials

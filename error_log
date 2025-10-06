@@ -1,0 +1,88 @@
+[23-Sep-2025 04:33:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: status in /home/briglwxe/public_html/seed_invites.php:10
+Stack trace:
+#0 /home/briglwxe/public_html/seed_invites.php(10): PDO->exec()
+#1 {main}
+  thrown in /home/briglwxe/public_html/seed_invites.php on line 10
+[23-Sep-2025 04:33:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: status in /home/briglwxe/public_html/seed_invites.php:10
+Stack trace:
+#0 /home/briglwxe/public_html/seed_invites.php(10): PDO->exec()
+#1 {main}
+  thrown in /home/briglwxe/public_html/seed_invites.php on line 10
+[23-Sep-2025 05:16:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:17:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:18:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:18:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:18:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:20:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:20:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:21:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:21:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: tier_slug in /home/briglwxe/public_html/redeem.php:32
+Stack trace:
+#0 /home/briglwxe/public_html/redeem.php(32): PDO->prepare()
+#1 {main}
+  thrown in /home/briglwxe/public_html/redeem.php on line 32
+[23-Sep-2025 05:26:36 UTC] PHP Warning:  Undefined array key "user_id" in /home/briglwxe/public_html/redeem.php on line 36
+[23-Sep-2025 08:11:25 UTC] PHP Warning:  require(/home/briglwxe/public_html/vendor/stripe-php/init.php): Failed to open stream: No such file or directory in /home/briglwxe/public_html/stripe_webhook.php on line 6
+[23-Sep-2025 08:11:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/briglwxe/public_html/vendor/stripe-php/init.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/briglwxe/public_html/stripe_webhook.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/briglwxe/public_html/stripe_webhook.php on line 6
+[24-Sep-2025 00:27:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'brightplan_user'@'localhost' (using password: YES) in /home/briglwxe/public_html/functions.php:18
+Stack trace:
+#0 /home/briglwxe/public_html/functions.php(18): PDO->__construct()
+#1 /home/briglwxe/public_html/register_action.php(14): db()
+#2 {main}
+  thrown in /home/briglwxe/public_html/functions.php on line 18
+[24-Sep-2025 00:56:33 UTC] PHP Warning:  require(/home/briglwxe/public_html/stripe-php/init.php): Failed to open stream: No such file or directory in /home/briglwxe/public_html/stripe_webhook.php on line 5
+[24-Sep-2025 00:56:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/briglwxe/public_html/stripe-php/init.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/briglwxe/public_html/stripe_webhook.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/briglwxe/public_html/stripe_webhook.php on line 5
+[24-Sep-2025 01:05:34 UTC] PHP Warning:  require(/home/briglwxe/public_html/stripe-php/init.php): Failed to open stream: No such file or directory in /home/briglwxe/public_html/stripe_webhook.php on line 5
+[24-Sep-2025 01:05:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/briglwxe/public_html/stripe-php/init.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/briglwxe/public_html/stripe_webhook.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/briglwxe/public_html/stripe_webhook.php on line 5
+[29-Sep-2025 00:03:03 UTC] PHP Parse error:  syntax error, unexpected floating-point number "127.0" in /home/briglwxe/public_html/functions.php on line 6
+[29-Sep-2025 02:16:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'briglwxe_brightplan_db.invite_codes' doesn't exist in /home/briglwxe/public_html/list_invites.php:10
+Stack trace:
+#0 /home/briglwxe/public_html/list_invites.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/briglwxe/public_html/list_invites.php on line 10
+[29-Sep-2025 04:55:20 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/briglwxe/public_html/account.php on line 4
+[29-Sep-2025 04:56:06 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/briglwxe/public_html/account.php on line 4
+[30-Sep-2025 00:05:37 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/briglwxe/public_html/account.php on line 4
+[30-Sep-2025 00:35:51 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/briglwxe/public_html/account.php on line 4
+[30-Sep-2025 00:38:14 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/briglwxe/public_html/account.php on line 4
