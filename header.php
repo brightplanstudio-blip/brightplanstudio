@@ -12,7 +12,7 @@ require_once __DIR__ . '/session_config.php';
   <link 
 href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" 
 rel="stylesheet">
-  <link rel="stylesheet" href="/brightplanstudio/styles.css">
+  <link rel="stylesheet" href="/styles.css">
   <script src="/brightplanstudio/assets/js/nav.js" defer></script>
 </head>
 <body>
